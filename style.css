@@ -1665,6 +1665,9 @@ top: 180px;
     .nav-item {
         display: none;
     } 
+    .sidebar{
+        display: block;
+    }
     
 }
 
