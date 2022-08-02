@@ -1856,40 +1856,40 @@ top: 180px;
     
     }
     .card2{
-        top:62%;
+        top:70%;
         left:37%;
     }
     
     .card3{
-        top:82%;
+        top:95%;
         left:37%;
     }
     .card4{
-        top:102%;
+        top:120%;
         left:37%;
     }
     .card5{
-        top:122%;
+        top:145%;
         left:37%;
     }
     .card6{
-        top:142%;
+        top:170%;
         left:37%;
     }
     .card7{
-        top: 162%;
+        top: 195%;
         left:37%;
     } 
     .card-container1{
-        top:187%;
+        top:220%;
         left:8%;
     }
     .card-container2{
-        top:247%;
+        top:300%;
         left:8%;
     }
     .card-container3{
-        top:307%;
+        top:380%;
         left:8%;
     }
 }
