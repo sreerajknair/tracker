@@ -74,7 +74,7 @@ border:none
 
 .box-img1{
     position: absolute;
-    right: 330px;
+    right: 280px;
     top: 20px;
 display: flex;
 flex-direction: column;
@@ -89,7 +89,7 @@ border-radius: 12px;
 }
 .box-img2{
     position: absolute;
-    right: 230px;
+    right: 200px;
     top: 20px;
 display: flex;
 flex-direction: column;
@@ -104,36 +104,16 @@ border-radius: 12px;
 }
 .box-img3{
     position: absolute;
-    right: 130px;
-    top: 20px;
+    right: 90px;
+    top: -13px;
     display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 padding: 18px;
-width: 60px;
-height: 60px;
-background: #2E333A;
-box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
+width: 130px;
+height: 130px;
 border-radius: 12px;
-}
-.box-img4{
-position: absolute;
-left: 87.90%;
-right: 32.95%;
-top: 33.06%;
-bottom: 11.7%;
-background: #0ED2F6;
-border: none;
-}
-.box-img5{
-    position: absolute;
-left: 87.85%;
-right: 45.84%;
-top: 58.10%;
-bottom: 12.5%;
-border: 2.5px solid #B2C2CB;
-border: none;
 }
 .pro-img{
     position: absolute;
@@ -1653,6 +1633,8 @@ top: 180px;
 .response{
     width: 100%;
 }
+
+
 @media screen and (max-width: 1300px) {
     .navbar {
         min-height: 35px;
@@ -1660,22 +1642,20 @@ top: 180px;
         position: fixed;
     }
     .search-bar{
-        display: none;
+        display: block;
+        width: min-content;
+        left: -25px;
+        right: 50px;
+        
     }
     .nav-item{
-        display: none;
+        display: block;
+       
+       
     } 
     .sidebar{
         display: block;
-    }
-    
-}
 
-@media screen and (max-width: 1200px) {
-    .navbar-toggler{
-        position: fixed;
-        right: 30px;
-        display: block;
     }
     .card1{
         left: 18%;
@@ -1720,7 +1700,23 @@ top: 180px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+    .navbar {
+        min-height: 35px;
+        background-color: #343a40;
+        position: fixed;
+    }
+    .search-bar{
+        display: block;
+        
+    }
+    .nav-item{
+        display: block;  
+    } 
+    .sidebar{
+        display: block;
+        
+    }
     .card1{
         left: 30%;
     
@@ -1763,7 +1759,29 @@ top: 180px;
         left:20%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+    .navbar {
+        min-height: 35px;
+        background-color: #343a40;
+        position: fixed;
+    }
+    .search-bar{
+        display: block;
+        
+    }
+    .nav-item{
+        display: block;  
+    } 
+    .sidebar{
+        display: block;
+        
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .nav-item{
+        display: block;  
+    } 
     .card1{
         left: 35%;
     
@@ -1806,50 +1824,10 @@ top: 180px;
         left:20%;
     }
 }
-@media screen and (max-width: 400px) {
-    .card1{
-        left: 26%;
+
+@media screen and (max-width: 540px) {
+
     
-    }
-    .card2{
-        top:55%;
-        left:37%;
-    }
-    
-    .card3{
-        top:75%;
-        left:37%;
-    }
-    .card4{
-        top:95%;
-        left:37%;
-    }
-    .card5{
-        top:115%;
-        left:37%;
-    }
-    .card6{
-        top:135%;
-        left:37%;
-    }
-    .card7{
-        top: 155%;
-        left:37%;
-    } 
-    .card-container1{
-        top:180%;
-        left:8%;
-    }
-    .card-container2{
-        top:240%;
-        left:8%;
-    }
-    .card-container3{
-        top:300%;
-        left:8%;
-    }
-}
-@media screen and (max-width: 500px) {
     .card1{
         left: 28%;
         top:20%;
@@ -1893,3 +1871,48 @@ top: 180px;
         left:8%;
     }
 }
+@media screen and (max-width: 420px) {
+    .card1{
+        left: 26%;
+    
+    }
+    .card2{
+        top:55%;
+        left:37%;
+    }
+    
+    .card3{
+        top:75%;
+        left:37%;
+    }
+    .card4{
+        top:95%;
+        left:37%;
+    }
+    .card5{
+        top:115%;
+        left:37%;
+    }
+    .card6{
+        top:135%;
+        left:37%;
+    }
+    .card7{
+        top: 155%;
+        left:37%;
+    } 
+    .card-container1{
+        top:180%;
+        left:8%;
+    }
+    .card-container2{
+        top:240%;
+        left:8%;
+    }
+    .card-container3{
+        top:300%;
+        left:8%;
+    }
+}
+
+    
