@@ -1641,6 +1641,7 @@ top: 180px;
         background-color: #343a40;
         position: fixed;
     }
+    
     .search-bar{
         display: block;
         width: min-content;
@@ -1700,15 +1701,15 @@ top: 180px;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .navbar {
         min-height: 35px;
         background-color: #343a40;
         position: fixed;
     }
+   
     .search-bar{
-        display:block;
-        
+        display:block;    
     }
     .nav-item{
         display: block;  
@@ -1759,26 +1760,8 @@ top: 180px;
         left:20%;
     }
 }
-@media screen and (max-width: 800px) {
-    .navbar {
-        min-height: 35px;
-        background-color: #343a40;
-        position: fixed;
-    }
-    .search-bar{
-        display: block;
-        
-    }
-    .nav-item{
-        display: block;  
-    } 
-    .sidebar{
-        display: block;
-        
-    }
 
-}
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
     .nav-item{
         display: block;  
     } 
@@ -1825,7 +1808,7 @@ top: 180px;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
 
     
     .card1{
@@ -1871,9 +1854,9 @@ top: 180px;
         left:8%;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 414px) {
     .card1{
-        left: 26%;
+        left: 27%;
     
     }
     .card2{
@@ -1906,11 +1889,97 @@ top: 180px;
         left:8%;
     }
     .card-container2{
+        top:235%;
+        left:8%;
+    }
+    .card-container3{
+        top:290%;
+        left:8%;
+    }
+}
+@media screen and (max-width: 393px) {
+    .card1{
+        left: 27%;
+    
+    }
+    .card2{
+        top:60%;
+        left:37%;
+    }
+    
+    .card3{
+        top:80%;
+        left:37%;
+    }
+    .card4{
+        top:100%;
+        left:37%;
+    }
+    .card5{
+        top:120%;
+        left:37%;
+    }
+    .card6{
+        top:140%;
+        left:37%;
+    }
+    .card7{
+        top: 160%;
+        left:37%;
+    } 
+    .card-container1{
+        top:180%;
+        left:8%;
+    }
+    .card-container2{
         top:240%;
         left:8%;
     }
     .card-container3{
         top:300%;
+        left:8%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .card1{
+        left: 27%;
+    
+    }
+    .card2{
+        top:70%;
+        left:37%;
+    }
+    
+    .card3{
+        top:95%;
+        left:37%;
+    }
+    .card4{
+        top:120%;
+        left:37%;
+    }
+    .card5{
+        top:145%;
+        left:37%;
+    }
+    .card6{
+        top:170%;
+        left:37%;
+    }
+    .card7{
+        top: 195%;
+        left:37%;
+    } 
+    .card-container1{
+        top:220%;
+        left:8%;
+    }
+    .card-container2{
+        top:290%;
+        left:8%;
+    }
+    .card-container3{
+        top:360%;
         left:8%;
     }
 }
